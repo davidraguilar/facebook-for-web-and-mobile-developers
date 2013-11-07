@@ -1,0 +1,42 @@
+<h1>Home</h1>
+
+<div class="nav">
+	<button id="friends">Friends</button>
+	<button id="feed">Feed</button>
+	<button id="logout">Logout</button>
+</div>
+
+<div class="info">
+	<div class="title">ID:</div>
+	<div class="value"><%= id %></div>
+</div>
+
+<div class="info">
+	<div class="title">Picture:</div>
+	<div class="value"><img src="https://graph.facebook.com/<%= id %>/picture?type=large"></div>
+</div>
+
+<div class="info">
+	<div class="title">Name:</div>
+	<div class="value"><%= name %></div>
+</div>
+
+<div class="info">
+	<div class="title">Email:</div>
+	<div class="value"><%= email %></div>
+</div>
+
+<div class="info">
+	<div class="title">Gender:</div>
+	<div class="value"><%= gender %></div>
+</div>
+
+<div class="info">
+	<div class="title">Link:</div>
+	<div class="value"><a href="<%= link %>" target="_blank"><%= link %></a></div>
+</div>
+
+<div class="info">
+	<div class="title">Locale:</div>
+	<div class="value"><%= locale %></div>
+</div>

@@ -1,0 +1,51 @@
+body {
+	font-family: sans-serif;
+}
+
+.nav {
+	padding-bottom: 30px;
+}
+
+.info {
+	width: 100%;
+	padding-bottom: 10px;
+	overflow: auto;
+}
+
+.info .title {
+	float: left;
+	width: 100px;
+	font-weight: bold;
+}
+
+.info .value {
+	margin-left: 100px;
+}
+
+.friend {
+	width: 100%;
+	padding-bottom: 10px;
+	overflow: auto;
+}
+
+.friend .picture {
+	display: inline-block;
+}
+
+.friend .name {
+	display: inline-block;
+	padding-left: 10px;
+}
+
+.feed {
+	width: 100%;
+	overflow: auto;
+}
+
+.feed .story {
+	
+}
+
+.friend .date {
+	
+}
